@@ -1,12 +1,12 @@
 * Fall 2022 - Lab 07
 
-* Last name:
+* Last name: Wen
 
-* First name:
+* First name: Michelle
 
-* GitHub username:
+* GitHub username: MichelleWen0510
 
-* Notes:
+* Notes:input1.cpp is unindented and input2.cpp is indented
 
 
   
