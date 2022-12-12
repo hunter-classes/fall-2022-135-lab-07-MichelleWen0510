@@ -38,6 +38,11 @@ int main()
 	int charCount=0;
         while(std::getline(file2,curLine))
         {
+			// Adjusting } Indents -- Sam Lee
+			if (curLine[0] == '}'){
+				charCount--;
+			}
+			// End of Change
 		for(int i=0;i<charCount;i++)
                 {
                         final=final+"\t";
