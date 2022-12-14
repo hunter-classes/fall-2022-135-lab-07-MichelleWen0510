@@ -10,6 +10,7 @@ Unindentation and indentation of a program.
 #include <string>
 #include <cctype>
 
+//Removes the first spaces in a string
 std::string removeLeadingSpaces(std::string line)
 {
 	std::string final;
@@ -31,6 +32,7 @@ std::string removeLeadingSpaces(std::string line)
 	return final+"\n";
 }
 
+//Counts the amount of character in a string
 int countChar(std::string line, char c)
 {
 	char letter;
